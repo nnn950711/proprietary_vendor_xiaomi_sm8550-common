@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/sm8550-common
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/sm8550-common/proprietary/vendor/etc/le_audio_codec_capabilities.xml:$(TARGET_COPY_OUT_VENDOR)/etc/le_audio_codec_capabilities.xml \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/audio/hrtf5c.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/hrtf5c.bin \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/audio/misound_karaoke_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaoke_res.bin \
     vendor/xiaomi/sm8550-common/proprietary/odm/etc/audio/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaokemix_res.bin \
